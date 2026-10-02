@@ -94,3 +94,17 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
                 color = Color.White,
                 fontWeight = FontWeight.Bold
             )
+            Spacer(modifier = Modifier.height(30.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.spiderman),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(200.dp)
+                    .clip(CircleShape)
+            )
+
+        }
+    }
+}
