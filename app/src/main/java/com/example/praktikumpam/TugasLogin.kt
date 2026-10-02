@@ -58,3 +58,12 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
                 fontSize = 16.sp,
                 color = Color.White
             )
+
+            Spacer(modifier = Modifier.height(40.dp)) // Jarak menuju logo UMY
+
+            // Komponen Logo UMY
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(150.dp) // Ukuran logo
+            )
