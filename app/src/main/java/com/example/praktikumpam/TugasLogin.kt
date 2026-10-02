@@ -1,4 +1,4 @@
-package com.example.praktikumpam.
+package com.example.Prkatikumpam
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -26,11 +26,3 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.TopCenter
-    ) {
-        // 1. Gambar Background
-        Image(
-            painter = painterResource(id = R.drawable.bg_login),
-            contentDescription = "Background Login",
-            contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize()
-        )
