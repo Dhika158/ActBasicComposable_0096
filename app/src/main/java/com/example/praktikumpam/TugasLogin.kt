@@ -21,3 +21,16 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.draw.clip
 
+@Composable
+fun TugasLoginScreen(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.TopCenter
+    ) {
+        // 1. Gambar Background
+        Image(
+            painter = painterResource(id = R.drawable.bg_login),
+            contentDescription = "Background Login",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
