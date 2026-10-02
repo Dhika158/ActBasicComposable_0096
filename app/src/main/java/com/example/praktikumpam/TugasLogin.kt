@@ -76,3 +76,12 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
                 color = Color.Red,
                 fontWeight = FontWeight.Bold
             )
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Andhika Nurjamil",
+                fontSize = 18.sp,
+                color = Color.White,
+                fontWeight = FontWeight.Bold
+            )
