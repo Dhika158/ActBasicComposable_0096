@@ -41,3 +41,11 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
                 .fillMaxSize()
                 .padding(top = 40.dp),
             horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // Teks Judul Login
+            Text(
+                text = "Login",
+                fontSize = 32.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
