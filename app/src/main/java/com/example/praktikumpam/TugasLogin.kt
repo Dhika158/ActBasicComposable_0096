@@ -67,3 +67,12 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(150.dp) // Ukuran logo
             )
+
+            Spacer(modifier = Modifier.height(30.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 18.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold
+            )
